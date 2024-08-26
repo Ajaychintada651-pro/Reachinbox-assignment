@@ -1,0 +1,41 @@
+/* .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+   */
+
+.header{
+    height: 8vh;
+    border-bottom: 1px solid #ffffff3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+
+.reachinbox-logo{
+    height: 20px;
+    width: auto;
+}

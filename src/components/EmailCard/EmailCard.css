@@ -1,0 +1,52 @@
+.email-card {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    /* width: 450px;  */
+    margin: 20px auto; 
+    margin-top: 0px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  }
+  
+  .email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .email-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .email-date {
+    font-size: 14px;
+    color: #bbbbbb; /* Light grey color */
+  }
+  
+  .email-details {
+    margin-bottom: 15px;
+  }
+  
+  .email-details p {
+    margin: 5px 0;
+    color: #AEAEAE;
+  }
+  
+  .email-cc {
+    color: #bbbbbb; /* Light grey color */
+  }
+  
+  .email-body p {
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #E1E0E0;
+  }
+  
+  .email-body p:first-child {
+    margin-top: 20px;
+  }
+  

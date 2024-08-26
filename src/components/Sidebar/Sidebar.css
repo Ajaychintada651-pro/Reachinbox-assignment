@@ -1,0 +1,53 @@
+.sidebar-bg-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 4%;
+    padding-top: 20px;
+    border-right: 1px solid #343A40;
+}
+
+.reachinbox-mini-logo{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.imgs-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sidebar-icon{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.name-icon{
+    height: 50px;
+    width: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.person-search-icon{
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.telegram-icon{
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.statistics-icon{
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}

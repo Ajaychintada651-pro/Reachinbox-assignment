@@ -1,0 +1,59 @@
+.onebox-header-bg-cont{
+    height: 8vh;
+    border-bottom: 1px solid #fff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #343A40;
+    
+}
+
+.dark-mode{
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.light-mode{
+    background-color: #fff;
+    color: #1F1F1F;
+}
+
+.onebox-header-bg-cont h2{
+    font-size: 14px;
+}
+
+
+
+.onebox-header-right-part{
+    display: flex;
+    gap: 15px;
+    padding-right: 30px;
+}
+
+.mode-changer-container{
+    display: flex;
+    background-color: transparent;
+    gap: 10px;
+    border-radius: 20px;
+    border:1px solid #343A40;
+    padding: 6px;
+}
+
+.dark-img{
+    height: 17px;
+    width: 17px;
+}
+
+.light-mode-inactive{
+    height: 17px;
+    width: 17px;
+}
+
+.time-work-space{
+    font-size: 14px;
+
+}

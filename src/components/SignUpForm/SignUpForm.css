@@ -1,0 +1,78 @@
+.form-bg-container{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+    color: #fff;
+}
+
+.form-container{
+    background: linear-gradient(#111214,#121212);
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 20px;
+    border: 1px solid #343A40 ;
+    width:25%;
+}
+
+.form-container h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.google-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #707172;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
+
+.google-signup p{
+    font-size: 14px;
+}
+
+.google-icon{
+    height: 20px;
+    width: 20px;
+}
+
+
+.create-account-btn{
+    background: linear-gradient(#4B63DD,#0524BF);
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.already-account-text{
+    color: #909296;
+    font-size: 14px;
+    /* margin-top: 20px; */
+}
+
+.signInText{
+    color: #C1C2C5;
+    font-size: 14px;
+    text-decoration: none;
+}

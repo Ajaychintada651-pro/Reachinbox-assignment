@@ -1,0 +1,11 @@
+.logged-in-bg-cont{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 100vh;
+  }

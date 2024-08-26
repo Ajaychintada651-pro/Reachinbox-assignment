@@ -1,0 +1,118 @@
+.middle-content-bg-cont{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 1px solid #33383F;
+}
+
+.middle-top-cont{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f8fafc29;
+}
+
+.middle-top-left-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.person-name{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.mail-id{
+    font-size: 14px;
+    color: #ffffff5c;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.btns-container{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.btns-container button{
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #343A40;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.menu-icon-cont{
+    font-size: 16px;
+    background-color: #1F1F1F;
+    color: #fff;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.middle-btm-cont{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 14px;
+    overflow-y: scroll;
+}
+
+.middle-btm-cont::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+.day-container{
+    display: flex;
+    align-items: center;
+}
+
+.today-cont{
+    color: #fff;
+    background-color: #171819;
+    width: fit-content;
+    padding: 8px;
+    font-size: 14px;
+
+}
+
+.hr-line{
+    border-top: 1px solid #33383F;
+    width:50%;
+}
+
+.reply-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background:linear-gradient(#4B63DD,#0524BF) ;
+    color: #fff;
+    width: 20%;
+    font-size: 16px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
